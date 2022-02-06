@@ -1,0 +1,84 @@
+body{
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+.bold{
+    font-weight: 900;
+}
+
+/* NAVBAR section */
+.navbar{
+    list-style: none;
+    background-color: white;
+    position:fixed;
+    top:1px;
+    padding:10px 0px;
+    display: block;
+    width:100%
+}
+
+.nav-item{
+    display: inline-block;
+    padding:5px 10px;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.navbar li:nth-child(1) {
+    font-size: larger;
+    font-weight:900;
+    text-transform:uppercase;
+}
+
+/* BANNER section */
+#banner{
+    background-color: #4d00ff;
+    color: white;
+
+    text-align: center;
+    padding:100px 0px;
+    margin-top: 50px;;
+}
+
+.title{
+    font-size: 60px;
+    text-transform: uppercase;
+}
+.title-image{
+    width:100px;
+    filter: drop-shadow(16px 16px 20px  rgb(191, 165, 22))   ;
+}
+
+/* GRITTER section */
+.gri-title{
+    color: #4d00ff;
+    font-size: 100px;
+}
+
+#gritter-section{
+    padding-left:50px;
+
+}
+/* FORM section */
+.list{
+    list-style: none;
+    align-content: center;
+}
+
+.list li{
+    position:relative
+}
+.small-image{
+    width:25px;
+}
+
+/* .list li{ */
+.info{
+    position:absolute; 
+    top:25%;
+    font-weight: 700;
+    padding-left: 5px;;
+}

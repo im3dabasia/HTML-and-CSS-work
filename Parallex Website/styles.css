@@ -1,0 +1,87 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+html,body{  
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #666;
+    height:100%;
+    line-height: 1.5rem;
+
+}
+.heading2{
+    padding-bottom: 5px;
+
+}
+
+/* Images Section */
+.ping1,.ping2,.ping3{
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-attachment: fixed;
+}
+ 
+.ping1{
+    background-image: url(/Parallex\ Website/images/bg-3.jpg  );
+    min-height: 100%;
+}
+
+.ping2{
+    background-image: url(/Parallex\ Website/images/bg-2.jpg  );
+    min-height: 400px;
+}
+
+.ping3{
+    background-image: url(/Parallex\ Website/images/bg-1.jpg  );  
+    min-height: 400px;
+}
+
+
+/* Section Section */
+
+.section{
+    padding:2rem 3rem;
+    text-align: center;
+}
+.section-dark{
+    background-color: #282e34;
+    color:#ddd;
+}
+
+.section-light{
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.ptext{
+    position: absolute;
+    top:50%;
+    width:100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    color:#000;
+    letter-spacing: 8px;
+}
+ 
+.ptext .border{
+    border: 3px solid black;
+    padding: 20px 30px;
+    background-color: #111;
+    color:#ddd;
+    
+}
+
+
+@media(max-width:590px){
+    .ping1,.ping2,.ping3{
+         
+        background-attachment: scroll;
+    }
+     
+}

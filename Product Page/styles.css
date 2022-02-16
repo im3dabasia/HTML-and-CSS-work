@@ -1,0 +1,185 @@
+*{
+box-sizing: border-box;
+margin:0px;
+padding:0px;
+
+}
+
+body,html{
+height:100vh;
+color: #fff;
+}
+
+.container{
+width:100%;
+}
+
+/* NAVBAR SECTION */
+nav{
+background-color: #222;
+display:flex;
+align-items: center;
+justify-content: space-between;
+padding:30px 100px;
+position: fixed;
+top:0px;
+width:100%
+}
+
+.logo{
+width:150px;
+cursor: pointer;
+}
+
+.navbar img{
+padding:10px 25px;
+width:20%;
+cursor: pointer;
+
+}  
+.navbar{
+margin-right: -100px;
+}
+
+
+/* PRODUCT MAIN SECTION */
+
+.row{
+height:100vh;
+width:100vw;
+display: flex;
+background-color: #222;
+
+}
+
+.col-2,.col-1{
+flex-basis:50%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding:8%;
+}
+
+.col-2{
+background-color:  #613385;
+}
+
+
+.col-1 h1{
+font-size:60px;
+
+font-family: 'Poppins', sans-serif;
+padding-bottom:20px;
+font-weight: bold;
+align-self: flex-start;
+line-height: 1.5;
+
+}
+
+.col-1 h2{
+font-size: 40px;
+align-self: flex-start;
+margin:5% 0;
+font-weight: 700 !important;
+}
+
+
+.col-1 p{
+font-size:20px
+
+}
+
+.btn{
+margin-top:-2%;
+display: inline-block;
+width:300px;
+height:70px;
+align-self: flex-start;
+text-transform: uppercase;
+font-size: 23px;
+font-weight: 600;
+background-color: #613385;
+border: none;
+border-radius: 5px;
+color: white;
+transition:0.5s;
+}
+
+.btn:hover{
+    background-color: aliceblue;
+    color: #613385;
+    transform:translateY(-5px) ;
+    
+}
+
+/*COL-2 DESIGN */
+.col-2{
+    width:100%;
+}
+.feature-img img{
+    width:100%;
+    transform: rotate(-20deg);
+}
+
+.small-img-row {
+    display: flex;
+    flex-direction: row;
+}
+.feature-img ,.small-img{
+    opacity: 0.9;
+    transition: 0.5s;
+}
+.small-img-row .small-img{
+    width:25%;
+    height:75px;
+    margin:5%;
+    background-color: #fff;
+    padding-top:5%;
+    position: relative;
+    left:-20px;
+}
+
+.small-img-row .small-img img{
+    position: relative;
+    left:-50px;
+    width:150%;
+    transform: rotate(-20deg);
+}
+
+.small-img:nth-child(1){
+    background-color: yellowgreen;
+    
+}
+.small-img:nth-child(2){
+    background-color: darkgray;
+
+}
+.small-img:nth-child(3){
+
+background-color: gold;
+}
+.small-img:nth-child(4){
+    background-color: tomato;
+
+}
+.small-img:hover{
+    opacity: 1;
+    transform: scale(1.2)
+}
+
+.feature-img:hover{
+    opacity: 1;
+    transform:  translateX(-10px)
+}
+.brand-name{
+    position: relative;
+    top:10px;
+    left:10px;
+    font-size: 100px;
+    font-family: 'Poppins', sans-serif;
+    opacity: 0.1;
+    width:140%;
+    font-weight: 100;
+    margin-top: 5%;
+}
